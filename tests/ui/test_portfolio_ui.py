@@ -36,7 +36,7 @@ def test_cadastrar_novo_aporte_carteira(
 
 
 # ---------------------------------------------------------------------------
-# Exclusão de ativos e recálculo de métricas consolidadas (US02) - Integrante 4
+# Exclusão de ativos e recálculo de métricas consolidadas - Gustavo Morais - 1242022304
 # ---------------------------------------------------------------------------
 
 def test_remover_ativo_recalcula_patrimonio(
