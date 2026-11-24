@@ -1,17 +1,13 @@
-"""Testes do Simulador de Rentabilidade (US03).
+# ---------------------------------------------------------------------------
+# Simulador de Rentabilidade (US03) - Gustavo Morais - 1242022304
+# ---------------------------------------------------------------------------
 
-Responsavel: Integrante 5.
-"""
 from playwright.sync_api import Page, expect
 
 from pages.navbar_component import NavbarComponent
 from pages.portfolio_page import PortfolioPage
 from pages.yield_simulator_page import YieldSimulatorPage
 
-
-# ---------------------------------------------------------------------------
-# Simulador de Rentabilidade Mês a Mês (US03) - Integrante 5
-# ---------------------------------------------------------------------------
 
 def _garantir_carteira_com_ativo(
     navbar: NavbarComponent,
